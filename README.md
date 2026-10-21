@@ -1,4 +1,4 @@
-# 📚 BookFlow — Sistema Nacional de Bibliotecas Universitárias
+# BookFlow — Sistema Nacional de Bibliotecas Universitárias
 
 > Relatório técnico de Experiência do Usuário (UX) para uma plataforma de biblioteca digital universitária **acessível** e em conformidade com a **Lei Brasileira de Inclusão (Lei nº 13.146/2015)** e com as diretrizes **WCAG 2.1 (nível AA)**.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 👥 Equipe
+## Equipe
 
 - Arthur Lanzoni Quim
 - Kauani Cristina Silva Rolim
@@ -18,17 +18,17 @@
 
 ---
 
-## 🎯 Sobre o projeto
+## Sobre o projeto
 
 O BookFlow nasce para resolver as barreiras de acesso da plataforma legada do SNBU, onde a **taxa de abandono chegava a 78%** nas etapas de refinamento de pesquisa. O trabalho documenta todo o processo de design, desde a sessão colaborativa até o MVP, e a migração do protótipo do **Figma** para um produto funcional no **Lovable**.
 
 🔗 **Protótipo no Figma:** _(cole o link aqui)_
 🔗 **Produto no Lovable:** _(cole o link aqui, se houver)_
-📄 **Relatório completo:** [`docs/relatorio1.docx`](docs/relatorio1.docx)
+ **Relatório completo:** [`docs/relatorio1.docx`](docs/relatorio1.docx)
 
 ---
 
-## 📑 Conteúdo do relatório
+## Conteúdo do relatório
 
 1. [Sessão de design colaborativo](#1--sessão-de-design-colaborativo)
 2. [Personas](#2--personas)
@@ -111,7 +111,7 @@ Seis telas em paleta verde-floresta, focadas em hierarquia da informação e nav
 
 **Arquitetura de informação:** Início · Acervo · Área de Acessibilidade · Minha Conta
 
-> 🖼️ _Adicione aqui os prints das telas, por exemplo:_ `![Home](imagens/home.png)`
+>  _Adicione aqui os prints das telas, por exemplo:_ `![Home](imagens/home.png)`
 
 ---
 
@@ -133,9 +133,9 @@ Seis telas em paleta verde-floresta, focadas em hierarquia da informação e nav
 
 **Três capacidades centrais**, todas com suporte a tecnologias assistivas desde o primeiro deploy:
 
-1. 📖 **Biblioteca digital** com busca por título, autor e ISBN e filtros por formato (.BRF, .MP3, PDF acessível, e-book)
-2. 🎛️ **Painel de acessibilidade por perfil**: Visão (fonte, contraste, espaçamento), Áudio (voz alta, velocidade, descrição de imagens) e Navegação (skip links, indicador de foco, Libras)
-3. 🤖 **Agente de IA** para busca e recomendação acessível, chamado exclusivamente pelo backend
+1.  **Biblioteca digital** com busca por título, autor e ISBN e filtros por formato (.BRF, .MP3, PDF acessível, e-book)
+2.  **Painel de acessibilidade por perfil**: Visão (fonte, contraste, espaçamento), Áudio (voz alta, velocidade, descrição de imagens) e Navegação (skip links, indicador de foco, Libras)
+3.  **Agente de IA** para busca e recomendação acessível, chamado exclusivamente pelo backend
 
 **Valor por segmento**
 
@@ -143,7 +143,7 @@ Seis telas em paleta verde-floresta, focadas em hierarquia da informação e nav
 - **Estudantes com deficiência visual:** independência no acesso ao acervo
 - **Estudantes com dislexia e TDAH:** menos carga cognitiva, com leitura em voz alta sincronizada e fontes alternativas
 
-**🔒 Segurança do agente de IA**
+** Segurança do agente de IA**
 
 - Chave de API só em variáveis de ambiente do backend (Supabase Edge Functions), nunca no frontend nem no repositório
 - Validação de entrada: máx. 500 caracteres, rejeição de caracteres de controle e sanitização
@@ -153,11 +153,11 @@ Seis telas em paleta verde-floresta, focadas em hierarquia da informação e nav
 
 ---
 
-## 🛠️ Tecnologias e ferramentas
+## Tecnologias e ferramentas
 
 `Figma` · `Lovable` · `Supabase (Auth e Edge Functions)` · `WCAG 2.1 AA` · `LBI`
 
-## 📂 Estrutura do repositório
+##  Estrutura do repositório
 
 ```
 .
@@ -168,7 +168,7 @@ Seis telas em paleta verde-floresta, focadas em hierarquia da informação e nav
     └── (prints das telas do protótipo)
 ```
 
-## 📚 Referências
+##  Referências
 
 - ABNT. **NBR 14724**: informação e documentação — trabalhos acadêmicos — apresentação. Rio de Janeiro, 2011.
 - BARBOSA, S. D. J.; SILVA, B. S. da. **Interação humano-computador**. Rio de Janeiro: Elsevier, 2010.
